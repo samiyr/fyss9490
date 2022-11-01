@@ -4,13 +4,11 @@ This repository contains the relevant code and data files for my Master's thesis
 
 ### Code files
 
-The main code files are `FullME.cc` and `EPA.cc`. These calculate the (approximately) differential cross sections
-$$ \frac{\mathrm{d}\sigma_{\mu^+\mu^-}}{\mathrm{d}W_{\mu^+\mu^-}} $$
-for muon pair production in proton-proton collisions using the full matrix element (Eq. (6.31)) and the equivalent photon approximation (Eq. (6.40)), respectively. 
+The main code files are `FullME.cc` and `EPA.cc`. These calculate the (approximately) differential cross sections $\mathrm{d}\sigma_{\mu^+\mu^-}/\mathrm{d}W_{\mu^+\mu^-}$ for muon pair production in proton-proton collisions using the full matrix element (Eq. (6.31)) and the equivalent photon approximation (Eq. (6.40)), respectively. 
 
 Alongside these main files are a few utility files, which contain code common to both calculations.
 
-The code computes the differential cross section in units $\mathrm{pb}/\mathrm{GeV}$ *without* dividing by bin width. Division by bin width must be done afterwards.
+The code computes the differential cross section in units $\mathrm{pb}/\mathrm{GeV}$ **without** dividing by bin width. Division by bin width must be done afterwards.
 
 ### Dependencies
 

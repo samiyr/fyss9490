@@ -18,4 +18,4 @@ The folder `13 TeV (cuts)` contains four files of the form `full_me_13000_i.csv`
 
 All files share a common CSV format, with the headers
 
-[invariant mass bin lower edge], [invariant mass bin upper edge], [cross section in $\mathrm{pb}/\mathrm{GeV}$], [absolute error in $\mathrm{pb}/\mathrm{GeV}$], [$\chi^2$], [number of rebinning iterations]
+[invariant mass bin lower edge], [invariant mass bin upper edge], [cross section in $\mathrm{pb}/\mathrm{GeV}$], [absolute error in $\mathrm{pb}/\mathrm{GeV}$], [ $\chi^2$ ], [number of rebinning iterations]
